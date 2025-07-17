@@ -1,0 +1,60 @@
+<svg width="400" height="120" viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="120" fill="white"/>
+  
+  <!-- Medical Cross with AI Circuit Pattern -->
+  <g transform="translate(20, 20)">
+    <!-- Main Cross -->
+    <rect x="25" y="10" width="10" height="60" fill="#2563EB" rx="2"/>
+    <rect x="10" y="25" width="40" height="10" fill="#2563EB" rx="2"/>
+    
+    <!-- Circuit Pattern Overlay -->
+    <g stroke="#10B981" stroke-width="1.5" fill="none">
+      <!-- Horizontal circuits -->
+      <line x1="5" y1="15" x2="15" y2="15"/>
+      <line x1="45" y1="15" x2="55" y2="15"/>
+      <line x1="5" y1="45" x2="15" y2="45"/>
+      <line x1="45" y1="45" x2="55" y2="45"/>
+      
+      <!-- Vertical circuits -->
+      <line x1="15" y1="5" x2="15" y2="15"/>
+      <line x1="45" y1="5" x2="45" y2="15"/>
+      <line x1="15" y1="45" x2="15" y2="55"/>
+      <line x1="45" y1="45" x2="45" y2="55"/>
+      
+      <!-- Circuit nodes -->
+      <circle cx="15" cy="15" r="2" fill="#10B981"/>
+      <circle cx="45" cy="15" r="2" fill="#10B981"/>
+      <circle cx="15" cy="45" r="2" fill="#10B981"/>
+      <circle cx="45" cy="45" r="2" fill="#10B981"/>
+    </g>
+    
+    <!-- AI Accent Lines -->
+    <g stroke="#10B981" stroke-width="2" opacity="0.7">
+      <line x1="0" y1="30" x2="8" y2="30"/>
+      <line x1="52" y1="30" x2="60" y2="30"/>
+    </g>
+  </g>
+  
+  <!-- Company Name -->
+  <text x="110" y="45" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="600" fill="#1F2937">
+    AI<tspan fill="#2563EB">Health</tspan><tspan fill="#10B981">RCM</tspan>
+  </text>
+  
+  <!-- Tagline -->
+  <text x="110" y="70" font-family="Inter, Arial, sans-serif" font-size="14" fill="#6B7280">
+    AI-Powered Revenue Cycle Management
+  </text>
+  
+  <!-- Subtle Tech Pattern -->
+  <g opacity="0.1">
+    <defs>
+      <pattern id="techPattern" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+        <circle cx="10" cy="10" r="1" fill="#2563EB"/>
+        <line x1="5" y1="10" x2="15" y2="10" stroke="#2563EB" stroke-width="0.5"/>
+        <line x1="10" y1="5" x2="10" y2="15" stroke="#2563EB" stroke-width="0.5"/>
+      </pattern>
+    </defs>
+    <rect x="300" y="20" width="80" height="80" fill="url(#techPattern)"/>
+  </g>
+</svg>
